@@ -2,7 +2,7 @@
 
 - The code implements one of nvidia's paper [PBD](https://mmacklin.com/uppfrta_preprint.pdf)
 
-- The code use [Taichi](https://github.com/taichi-dev/taichi) programming language
+- The code uses [Taichi](https://github.com/taichi-dev/taichi) programming language
 
 ---
 
@@ -10,14 +10,14 @@
 
 - First config your anaconda workspace, and open the anaconda prompt
   
-- Second you need install dependency  
+- Second you need to install dependency  
   ```python
   pip install -r requirements.txt
   ```
 
 - Last you type 
   ```python
-  ti Examle.py
+  ti Example.py
   ```
 
 ---
