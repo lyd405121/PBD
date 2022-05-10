@@ -38,13 +38,7 @@
 
 - Last you will get a voxel file like below:
 
-
-<figure class="half">
-    <img src="image/bearings.png" height="200">
-    <img src="image/bearings-vol.png" height="200">
-    <img src="image/bearings-bvh.png" height="200">
-    <div>&emsp;&emsp;&emsp;&emsp;origin obj file&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; voxel file&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;bvh file</div>
-</figure>
+![image](image/howto.png)
 
 
 ## Some example
