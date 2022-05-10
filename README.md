@@ -1,2 +1,2 @@
-# PBD
-Using taichi to implement position based dynamic
+# Positon based dynamic with taichi
+
