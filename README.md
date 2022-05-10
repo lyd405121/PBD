@@ -28,7 +28,7 @@
   
 - Second you need to modify the code in GenVoxel.py
   ```python
-  obj_name = "my"
+  obj_name = "Bearings"
   ```
 
 - Then you type 
