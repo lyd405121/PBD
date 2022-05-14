@@ -54,9 +54,9 @@ def main(argv):
       canvas.scene(scene)
 
       
-      filename = str(sim.frame_cpu[0]).zfill(6) + '.png'
-      window.write_image(filename)
-      window.show()
+      #filename = str(sim.frame_cpu[0]).zfill(6) + '.png'
+      #window.write_image(filename)
+      #window.show()
 
       if sim.frame_cpu[0]>500:
          break
