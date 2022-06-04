@@ -45,5 +45,6 @@
 
 - Rigidbody Simulation
 - Red particle means it contact ground plane, green means it has at least one neighbour from other rigidbody 
+
 ![image](image/taichi.gif)
 
