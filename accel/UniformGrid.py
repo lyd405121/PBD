@@ -177,7 +177,7 @@ class UniformGrid:
                         m = cell_start
                         while m < cell_end:
                             self.neighbour[i,0] +=  1
-                            self.neighbour[i,m] =  self.particle[m][1] 
+                            self.neighbour[i,self.neighbour[i,0]] =  self.particle[m][1] 
                             m+=1 
 
     def export_debug_grid(self, pos, particle_num):

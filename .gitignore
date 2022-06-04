@@ -1,4 +1,4 @@
-result/*.png
+result/*
 __pycache__
 *.ini
 *.obj

@@ -6,6 +6,8 @@ import Simulation as Sim
 import UtilsFunc as UF
 import SceneData as SCD
 
+WRITE_PIC = 1
+
 def add_plane(sim):
    shape = SCD.Shape()
    shape.setType(UF.SHAPE_QUAD)
@@ -53,10 +55,11 @@ def main(argv):
       scene.point_light(pos=(sim.centrenp[0,0], sim.centrenp[0,1], sim.centrenp[0,2]+np.linalg.norm(sim.sizenp)*1.5), color=(0.5, 0.5, 0.5))
       canvas.scene(scene)
 
+      if WRITE_PIC== 1:
+         filename = 'result/' + str(sim.frame_cpu[0]).zfill(6) + '.png'
+         window.write_image(filename)
       
-      #filename = str(sim.frame_cpu[0]).zfill(6) + '.png'
-      #window.write_image(filename)
-      #window.show()
+      window.show()
 
       if sim.frame_cpu[0]>500:
          break
